@@ -7,12 +7,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     TextView FNum, SNum, Result;
-    Button AddButton, MinusButton, MultiplyButton, DivideButton, ModuloButton, ClearButton;
+    Button ClearButton;
     double fnum = 0, snum = 0, result = 0;
 
     void operation(int oper) {
